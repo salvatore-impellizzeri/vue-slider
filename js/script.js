@@ -47,6 +47,10 @@ createApp({
             if(this.activeImg == this.slides.length){
                 this.activeImg = 0;
             }
+        },
+
+        clickImg(i){
+            this.activeImg = i;
         }
     }
 }).mount('#app'); 
